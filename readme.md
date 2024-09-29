@@ -48,5 +48,5 @@
 3. Initialiseer een nieuwe Git-repository met: git init
 4. Voeg bestanden toe met: git add .
 5. Commit alle bestanden met: git commit -m "Initial commit"
-6. git remote add origin <https://github.com/xancenl/MLTranslate.git>
-7. Verbind met GitHub en forceer de push met git push -f origin master
+6. Push alle bestanden naar remote repository: git remote add origin <https://github.com/xancenl/MLTranslate.git>
+7. Verbind met GitHub en forceer de push met: git push -f origin main
