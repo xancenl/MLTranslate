@@ -1,4 +1,4 @@
-# Hugging Face - NLP text2text translation models
+# Helsinki NLP + CTranslate2
 
 ## Download and install Anaconda
 
