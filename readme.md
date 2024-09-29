@@ -8,10 +8,29 @@
 
 ## Prepare Anaconda Prompt
 
-1. Run: conda install pytorch torchvision torchaudio cpuonly -c pytorch
-2. Run: pip install transformers
-3. Run: pip install sentencepiece
-    a. If errors occured, fix: pip install --upgrade transformers sentencepiece
+1. Install pytorch:
+
+    ```console
+    conda install pytorch torchvision torchaudio cpuonly -c pytorch
+    ```
+
+2. Install python transformers:
+
+    ```console
+    pip install transformers
+    ```
+
+3. Install python sentencepiece:
+
+    ```console
+    pip install sentencepiece
+    ```
+
+    a. If installations errors occures, fix:
+
+    ```console
+    pip install --upgrade transformers sentencepiece
+    ```
 
 ## Run translations
 
@@ -50,8 +69,32 @@
     rmdir /S /Q .git
     ```
 
-3. Initialiseer een nieuwe Git-repository met: git init
-4. Voeg bestanden toe met: git add .
-5. Commit alle bestanden met: git commit -m "Initial commit"
-6. Push alle bestanden naar remote repository: git remote add origin <https://github.com/xancenl/MLTranslate.git>
-7. Verbind met GitHub en forceer de push met: git push -f origin main
+3. Initialiseer een nieuwe Git-repository met:
+
+    ```console
+    git init
+    ```
+
+4. Voeg bestanden toe met:
+
+    ```console
+    git add .
+    ```
+
+5. Commit alle bestanden met:
+
+    ```console
+    git commit -m "Initial commit"
+    ```
+
+6. Push alle bestanden naar remote repository:
+
+    ```console
+    git remote add origin https://github.com/xancenl/MLTranslate.git
+    ```
+
+7. Verbind met GitHub en forceer de push met:
+
+    ```console
+    git push -f origin main
+    ```
