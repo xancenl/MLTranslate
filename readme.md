@@ -1,10 +1,9 @@
 # Hugging Face - NLP text2text translation models
 
-## Prerequisite Windows environment
+## Download and install Anaconda
 
-1. Install Anaconda
-    a. Download: <https://docs.anaconda.com/free/anaconda/install/windows/>
-    b. Install, configure and verify Anaconda: <https://docs.anaconda.concom/free/anaconda/install/verify-install/>
+1. Download: <https://docs.anaconda.com/free/anaconda/install/windows/>
+2. Install, configure and verify Anaconda: <https://docs.anaconda.concom/free/anaconda/install/verify-install/>
 
 ## Prepare Anaconda Prompt
 
