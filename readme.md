@@ -43,8 +43,13 @@
 
 ## Git rebuild and checkout
 
-1. Open de Command Prompt of Git Bash.
-2. Verwijder de .git directory met: rmdir /S /Q .git
+1. Open de Command Prompt of Git Bash
+2. Verwijder de .git directory met:
+
+    ```console
+    rmdir /S /Q .git
+    ```
+
 3. Initialiseer een nieuwe Git-repository met: git init
 4. Voeg bestanden toe met: git add .
 5. Commit alle bestanden met: git commit -m "Initial commit"
